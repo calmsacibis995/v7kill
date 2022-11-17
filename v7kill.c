@@ -2,7 +2,7 @@
 /* v7kill is licensed under the 3-clause BSD license. */
 
 /*
- * kill - send signal to process
+ * v7kill - send signal to process
  */
 
 #include <stdio.h>
@@ -20,7 +20,7 @@ int main(int argc, char **argv)
 	errlev = 0;
 	if (argc <= 1) {
 	usage:
-		printf("usage: kill [ -signo ] pid ...\n");
+		printf("usage: v7kill [ -signo ] pid ...\n");
 		exit(2);
 	}
 	if (*argv[1] == '-') {
